@@ -22,7 +22,7 @@ config = {
     'mount_dir': '/shared',
 
     # LVM physical volumes (pv), volume groups (vg), and logical volumes (lv)
-    'vg_name': 'cls_shared_vg',
+    'vg_name': 'project_shared_vg',
     'lv_name': 'shared_lv',
 
     # Instance ID
@@ -30,6 +30,4 @@ config = {
     # Number of snapshots to list,
     'limit': 7,
 
-    # Path to the log for this script
-    'log_file': '/tmp/makesnapshots.log',
 }
