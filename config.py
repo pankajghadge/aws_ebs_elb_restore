@@ -11,7 +11,7 @@ config = {
     # Availability zone
     'availability_zone': 'eu-west-2b',
 
-    # Tag of the EBS volume you want to take the snapshots of
+    # Tag of the EBS Snapshot/volume you want to restore
     'tag_name': 'Name',
     'tag_value': 'filer01.project.private.ppd.vpc-eu01.itcompanyname.net',
 
